@@ -63,48 +63,13 @@ Blöcke verstecken:
 
 ## TODO & Issues
 
-- [ ] 3 RGB-LEDs werden nicht gerendert und tauchen demnach nicht in den "Blöcken" auf
-- [ ] Pin - Touch Logo auf der Rückseite wird nicht gerendert
-- [ ] DC-Motorblöcke Package, nicht gefunden. Blöcke nicht gerendert
-- [ ] Servo-Library neue Pins (C8) nicht gefunden.
- 
+- [x] 3 RGB-LEDs werden nicht gerendert und tauchen demnach nicht in den "Blöcken" auf
+- [x] Pin - Touch Logo auf der Rückseite wird nicht gerendert
+- [x] DC-Motorblöcke Package, nicht gefunden. Blöcke nicht gerendert
+- [x] Servo-Library neue Pins (C8) nicht gefunden.
 
-**RGB-LEDs:**
+Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:
 
-- Reaktionsspiel
-- Digitales Haustier: Stimmung
-- Digitales Haustier: Eigenes Projekt
-- Escape-Room: Entfernung messen
-- Escape-Room: Licht messen
-- Escape-Room: Feuchtigkeit messen
-- Escape-Room: Lichtschalter 
-- Escape-Room: Binärcode
-- Escape-Room: Kompass 
-
-
-```blocks
-basic.setLedColors(0x00ffff, 0x00ffff, 0x000000)
+```package
+v3
 ```
-Workaround: Alten Block verwenden ```basic.setLedColor()```
-
-**Touch-Logo**
-
-- Haustier-spielen:
-
-```blocks
-input.onLogoEvent(TouchButtonEvent.Pressed, function () { }
-``` 
-
-**Blockkommentare mit Zeilenabstand**
-
-- Digitales Haustier: Eigenes Projekt
-
--Workaround: Tipps Direkt als Hinweise in die Infobox
-
-**DC-Motorblöcke**
-
-- Seifenblasenmaschine
-
-**Servobibliothek-Pins**
-
-- Seifenblasenmaschine
