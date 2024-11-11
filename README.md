@@ -77,3 +77,5 @@ v3
 
 5.1.2 Haustier streicheln:
 - wenn kleiner als 0 im Text, Programm >= 200
+5.1.3 Haustier Bewegung
+- hier fehlen noch Schritte.
