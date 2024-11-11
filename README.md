@@ -73,3 +73,7 @@ Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:
 ```package
 v3
 ```
+
+
+5.1.2 Haustier streicheln:
+- wenn kleiner als 0 im Text, Programm >= 200
