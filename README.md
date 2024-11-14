@@ -61,8 +61,27 @@ Blöcke verstecken:
 // @hide
 
 
-## TODO & Issues
+## Programme Issues
+- 5.1.2 Haustier - Streicheln:
+    - Fehler AH: wenn kleiner als 0 im Text, Programm >= 200
+- 5.1.3 Haustier - Bewegung
+    - [ ] hier fehlen noch Schritte zur Erklärung
+- 5.1.4 Haustier - Spielen
+    - hinzugefügt: Pfeil nach oben anzeigen bei Start.
+    - Treppe ausührlicher: 1 Balken bei einem Wurf usw.
+- 5.1.5 Haustier - Schlafen
+    - Mit Funktion oder ohne?
+- 5.1.6 Haustier - Hunger
+    - ! Fehler im Programm. Futter muss am Ende zurück gesetzt werden.
+    - Frage: Warum 2 Variablen für 6 Zustände, statt einer?
+- 5.1.7 Haustier - Soziale Kontakte
+    - [ ] PAP einfügen
 
+
+## TODO
+
+- [ ] digitales Haustier Stimmung
+- [ ] digitales Haustier eigenes Projekt
 - [x] 3 RGB-LEDs werden nicht gerendert und tauchen demnach nicht in den "Blöcken" auf
 - [x] Pin - Touch Logo auf der Rückseite wird nicht gerendert
 - [x] DC-Motorblöcke Package, nicht gefunden. Blöcke nicht gerendert
@@ -73,9 +92,3 @@ Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:
 ```package
 v3
 ```
-
-
-5.1.2 Haustier streicheln:
-- wenn kleiner als 0 im Text, Programm >= 200
-5.1.3 Haustier Bewegung
-- hier fehlen noch Schritte.
