@@ -75,7 +75,11 @@ Blöcke verstecken:
     - ! Fehler im Programm. Futter muss am Ende zurück gesetzt werden.
     - Frage: Warum 2 Variablen für 6 Zustände, statt einer?
 - 5.1.7 Haustier - Soziale Kontakte
-    - [ ] PAP einfügen
+    - [ x ] PAP einfügen
+- 5.1.8 Haustier - Stimmung
+    - Hier ggf. noch zusätzliche Schritte?
+- 5.2 Haustier - Eigenes Projekt
+    - Fehler im Code: Temperatur nur 2 Stufen? Abfrage kann komprimiert werden.
 
 
 ## TODO
