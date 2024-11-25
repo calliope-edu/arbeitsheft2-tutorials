@@ -80,6 +80,8 @@ Blöcke verstecken:
     - Hier ggf. noch zusätzliche Schritte?
 - 5.2 Haustier - Eigenes Projekt
     - Fehler im Code: Temperatur nur 2 Stufen? Abfrage kann komprimiert werden.
+- 6.1.4 Feuchtigkeit messen
+    - Ultraschall steht in der Aufgabe, statt Feuchtigkeit.
 
 
 ## TODO
