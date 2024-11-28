@@ -61,8 +61,17 @@ Blöcke verstecken:
 // @hide
 
 
-## TODO & Issues
+## Programme Issues
+- 5.1.4 Haustier - Spielen
+    - [ ] Bilder rein
+- 5.1.6 Haustier - Hunger
+    - Zustände mit Booleans: 2 Versionen
 
+
+## TODO
+
+- [ ] digitales Haustier Stimmung
+- [ ] digitales Haustier eigenes Projekt
 - [x] 3 RGB-LEDs werden nicht gerendert und tauchen demnach nicht in den "Blöcken" auf
 - [x] Pin - Touch Logo auf der Rückseite wird nicht gerendert
 - [x] DC-Motorblöcke Package, nicht gefunden. Blöcke nicht gerendert
@@ -73,9 +82,3 @@ Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:
 ```package
 v3
 ```
-
-
-5.1.2 Haustier streicheln:
-- wenn kleiner als 0 im Text, Programm >= 200
-5.1.3 Haustier Bewegung
-- hier fehlen noch Schritte.
