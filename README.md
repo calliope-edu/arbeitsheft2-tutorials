@@ -62,26 +62,10 @@ Blöcke verstecken:
 
 
 ## Programme Issues
-- 5.1.2 Haustier - Streicheln:
-    - Fehler AH: wenn kleiner als 0 im Text, Programm >= 200
-- 5.1.3 Haustier - Bewegung
-    - [ ] hier fehlen noch Schritte zur Erklärung
 - 5.1.4 Haustier - Spielen
-    - hinzugefügt: Pfeil nach oben anzeigen bei Start.
-    - Treppe ausührlicher: 1 Balken bei einem Wurf usw.
-- 5.1.5 Haustier - Schlafen
-    - Mit Funktion oder ohne?
+    - [ ] Bilder rein
 - 5.1.6 Haustier - Hunger
-    - ! Fehler im Programm. Futter muss am Ende zurück gesetzt werden.
-    - Frage: Warum 2 Variablen für 6 Zustände, statt einer?
-- 5.1.7 Haustier - Soziale Kontakte
-    - [ x ] PAP einfügen
-- 5.1.8 Haustier - Stimmung
-    - Hier ggf. noch zusätzliche Schritte?
-- 5.2 Haustier - Eigenes Projekt
-    - Fehler im Code: Temperatur nur 2 Stufen? Abfrage kann komprimiert werden.
-- 6.1.4 Feuchtigkeit messen
-    - Ultraschall steht in der Aufgabe, statt Feuchtigkeit.
+    - Zustände mit Booleans: 2 Versionen
 
 
 ## TODO
