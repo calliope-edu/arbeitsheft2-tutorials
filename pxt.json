@@ -33,7 +33,7 @@
         "tutorials/7.2_servoboard-seifenblasenmaschine.md",
         "tutorials/7.3.1_motionkit-fahrbewegungen.md",
         "tutorials/7.3.2_motionkit-selbstfahrende-roboter.md",
-        "tutorials/7.3.3_motionkit-ferngesteuerte-roboter.md"
+        "tutorials/7.3.3_motionkit-ferngesteuerte-roboter.md",
         "_locales/en/example.md",
         "static/images/variable_tempo.png",
         "static/images/variable_licht.png",
