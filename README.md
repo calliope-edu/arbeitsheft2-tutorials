@@ -1,40 +1,56 @@
 ## Arbeitsheft 2 Tutorials
 
-
 MakeCode Tutorials für das Calliope Arbeitsheft 2
 
-**Tutorials im Tutroial-Tool testen:**
-
-https://makecode.com/tutorial-tool
-
-### Tutorial aufrufen:
+### Tutorials aufrufen:
 
 Die Tutorials können direkt als Link wie gefolgt aufgerufen werden:
 
 MakeCode-Editor/Github-Account/Repository/Tutorial(ohne Mardown-Endung .md)
+https://makecode.calliope.cc / #tutorial: / https://github.com / calliope-edu / arbeitsheft2tutorials / example
 
-**Beispiel:**
+### Liste der Arbeitsheft 2 Tutorials:
 
-https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2-tutorials/tutorials/4.1_schere-stein-papier
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.1_schere-stein-papier
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.2_reaktionsspiel
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.3_regentropfen-fangen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.1_digitales-haustier-temperatur
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.2_digitales-haustier-streicheln
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.3_digitales-haustier-bewegung
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.4_digitales-haustier-spielen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.5_digitales_haustier-schlafen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.6_digitales-haustier-hunger
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.6_digitales-haustier-hunger_boolean
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.7_digitales-haustier-soziale-kontakte
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.8_digitales-haustier-stimmung
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.1_escape-room-entfernung-messen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.2_escape-room-licht-messen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.3_escape-room-lautstaerke-messen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.4_escape-room-feuchtigkeit-messen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.5_escape-room-lichtschalter
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.6_escape-room-binaercode
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.7_escape-room-kompass
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.1.1_180-grad-servomotoren
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.1.2_360-grad-servomotoren
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.2_servoboard-seifenblasenmaschine
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.1_motionkit-fahrbewegungen
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.2_motionkit-selbstfahrende-roboter
+- https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.3_motionkit-ferngesteuerte-roboter                                     
 
-**Liste der Tutorials:**
-
-- "tutorials/4.1_schere-stein-papier"
-- "tutorials/4.2_reaktionsspiel"
-- ...
-
-<!-- 
-https://makecode.calliope.cc/#tutorial:https://github.com/jasperp92/makecode_tutorials/tutorials/lichtsirene
-https://github.com/jasperp92/makecode_tutorials/blob/master/pxt.json -->
 
 ### Tutorials erstellen:
-
--  [ ] Herausfinden wie Blöcke nur pro Schritt hinzugefügt werden
 
 https://makecode.com/writing-docs/user-tutorials
 https://makecode.com/writing-docs/snippets
 
-Enable Block validation:
+
+**Tutorials im Tutorial-Tool testen:**
+
+https://makecode.com/tutorial-tool
+
+### nützliche Blöcke
+
+**Enable Block validation:**
 
 **Enable the `BlocksExistValidator` globally and ignore highlighted blocks**  
 _Note: highlight is not specified in the markers property._
@@ -45,7 +61,7 @@ _Note: highlight is not specified in the markers property._
 ```
 ````
 
-Blockunterschiede anzeigen:
+**Blockunterschiede anzeigen:**
 
 ```### @diffs true```
 
@@ -56,29 +72,16 @@ let x = 1
 let y = 1
 ```
 
-Blöcke verstecken:
+**Blöcke verstecken:**
 
 // @hide
 
-
-## Programme Issues
-- 5.1.4 Haustier - Spielen
-    - [ ] Bilder rein
-- 5.1.6 Haustier - Hunger
-    - Zustände mit Booleans: 2 Versionen
-
-
-## TODO
-
-- [ ] digitales Haustier Stimmung
-- [ ] digitales Haustier eigenes Projekt
-- [x] 3 RGB-LEDs werden nicht gerendert und tauchen demnach nicht in den "Blöcken" auf
-- [x] Pin - Touch Logo auf der Rückseite wird nicht gerendert
-- [x] DC-Motorblöcke Package, nicht gefunden. Blöcke nicht gerendert
-- [x] Servo-Library neue Pins (C8) nicht gefunden.
-
-Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:
+**Library für V3 hinzufügen, um aktuelle Böcke für den mini V3 anzuzeigen:**
 
 ```package
 v3
 ```
+
+## TODO
+
+-  [ ] Herausfinden wie Blöcke nur pro Schritt hinzugefügt werden
