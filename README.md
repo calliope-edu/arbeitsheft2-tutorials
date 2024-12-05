@@ -40,6 +40,12 @@ https://makecode.calliope.cc / #tutorial: / https://github.com / calliope-edu / 
 
 ### Tutorials erstellen:
 
+Um mehrer Tutorials als URL zu laden müssen folgende Dinge beachtet werden:
+
+- die Dateigöße der Bilder darf nicht zu groß sein! Am besten unter 50kB
+- pxt.json muss alle verlinkten Datein unter "files:" auflisten:
+    - "tutorials/7.3.3_motionkit-ferngesteuerte-roboter.md"
+
 https://makecode.com/writing-docs/user-tutorials
 https://makecode.com/writing-docs/snippets
 
@@ -47,6 +53,7 @@ https://makecode.com/writing-docs/snippets
 **Tutorials im Tutorial-Tool testen:**
 
 https://makecode.com/tutorial-tool
+
 
 ### nützliche Blöcke
 
