@@ -1,5 +1,5 @@
 {
-    "name": "arbeitsheft2-tutorials",
+    "name": "arbeitsheft2tutorials",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -43,7 +43,6 @@
         "static/images/knopf_a_b.jpg",
         "static/images/funktion_erstellen.jpg",
         "static/images/duplizieren.jpg",
-        "static/images/dice_animation.gif",
         "static/images/debugger_icon.jpg",
         "static/images/eimer.jpg",
         "static/images/escaperoom-entfernung.jpg",
